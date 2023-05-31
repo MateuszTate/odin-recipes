@@ -1,0 +1,68 @@
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    overflow: hidden;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    border: solid 5px hsl(238, 29%, 16%);
+    width: 30%;
+    height: 50%;
+}
+
+h1,ul{
+    margin-left: 28%;
+    color: hsl(238, 29%, 16%);
+    
+}
+
+h1{
+    margin-top: 20%;
+    margin-left: 30%;
+}
+
+li{
+    margin-top: 5%;
+    padding-bottom: 20px;
+    border-bottom: solid 1px hsl(0, 0%, 86%);
+    color: hsl(237, 12%, 33%);
+    cursor: pointer;
+    font-size: 17px;
+    width: 50%;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: hsl(238, 34%, 30%);
+}
+
+h1:hover{
+    text-shadow: 0px 0px 10px rgb(151, 151, 151);
+}
+
+img{
+    width: 20%;
+}
+
